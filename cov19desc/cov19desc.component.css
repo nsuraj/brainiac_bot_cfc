@@ -1,0 +1,27 @@
+.head{
+    color: chocolate;
+    padding: 30px;
+}
+.side-head{
+    color: chocolate;
+}
+.col-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.co-image{
+    height: 500px;
+    width: 80%;
+}
+.descpage{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+ul{
+    color: chocolate;
+}
+li{
+    color: black;
+}

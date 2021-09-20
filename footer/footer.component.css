@@ -1,0 +1,28 @@
+.page-footer{
+    width:100%;
+    bottom:0px;
+    background: #152935 0% 0% no-repeat padding-box !important;
+    border: 1px solid #BABABA;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    color: #FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 10px;
+
+}
+.ul-list{
+    list-style: none;
+    margin: 0;
+}
+.li-list{
+    display: inline-block;
+    margin: 5px;
+    font-size: 10px;
+}
+.rights{
+    margin-left: 30px;
+    font-size: 10px;
+}
+

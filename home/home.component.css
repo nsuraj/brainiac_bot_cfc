@@ -1,0 +1,103 @@
+img.d-block.w-100{
+    height: 500px;
+}
+img.img-fluid{
+    height: 200px;
+    width: 100%;
+}
+.carousel .carousel-item {
+    height: 300px;
+    position: relative;
+    z-index: 0;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top-space{
+    padding-top: 10px;
+}
+div.row.row-news{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+section{
+    margin: 0px;
+}
+.brainiac{
+    padding-left: 10px;
+}
+.chatIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 100%;
+    color: rgb(70, 143, 240);
+    
+  }
+  .chatbotPopup > div.card {
+    width: 500px;
+    min-height: 450px;
+    background-color: #fff;
+    position: fixed;
+    transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+    bottom: 90px;
+    right: 25px;
+    z-index: 100;
+    cursor: move;
+  }
+  div .card{
+      z-index: 10;
+  }
+  .chatbotimg{
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+  }
+  /* .card{
+    border: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: move;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  } */
+  .card:active{
+      box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+      0 8px 10px 1px rgba(0, 0, 0, 0.14),
+      0 3px 14px 2px rgba(0, 0, 0, 0.12)
+  }
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.pad{
+    padding-right: 5px;
+}
+.brainiac{
+    color: #5a5a5a;
+}
+.badge{
+    background-color: #25467A;
+    color: white;
+    padding: 10px;
+    font-size: small;
+    margin: 0px;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1rem!important;
+}
