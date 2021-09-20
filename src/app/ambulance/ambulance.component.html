@@ -1,0 +1,30 @@
+<div class="container">
+    <p class="lists">Make a selection from the List of states and union territories in India:</p>
+
+    <div class="row">
+    <div class="col-4 states-width">
+        <ul>
+    
+        <li *ngFor="let state of STATES;let i =index"><button class="button" value="state" (click)="onItemSelector($event)">
+            {{state}}</button>
+        </li>
+        </ul>
+    </div>
+    <div class="col-8">
+       
+        <div class="results" *ngIf="show">
+            <p class="search">Search Results for {{curr_state}}:</p>
+        <div class="row" *ngFor="let obj1 of outhosp; let i = index">
+            <div class="col">
+                <li class="res-class" ><p class="border-para">{{outhosp[i]}}</p></li>
+                </div>
+                <div class="col">
+                <li class="res-class"><p class="border-para">{{hospnum[i]}}</p></li>
+                </div>
+                <br>
+        </div>
+        <!-- <p class="search">Currently Available Covid Facilities:</p> -->
+        </div>
+    </div>
+    </div>
+</div>
