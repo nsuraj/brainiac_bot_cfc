@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BrainiacBotV1</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="styles.3f0cd4f6c5a328d95ea7.css"></head>
+<body class="mat-typography">
+  <app-root></app-root>
+  <button type="button" class="chatLauncher" style="display:none;">
+    <div>
+      <strong>Have questions?</strong> Talk with Karen our Virtual Assistant.
+    </div>
+  </button>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "819cc0a5-740e-45a2-918b-9b863f27dd10", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "e795a92e-7530-4658-aa83-4eb699e14154", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js"
+    document.head.appendChild(t);
+  });
+  </script>
+<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.28f12a96904b8f2b6d42.js" nomodule defer></script><script src="polyfills-es2015.7f2be5c3211715ed096a.js" type="module"></script><script src="scripts.b5025b7c30282155348a.js" defer></script><script src="main-es2015.3941b6dde54ec19ce748.js" type="module"></script><script src="main-es5.3941b6dde54ec19ce748.js" nomodule defer></script></body>
+</html>
